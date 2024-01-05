@@ -17,7 +17,6 @@ np.random.shuffle(data.values)
 print(data.shape[1])
 print(data.columns)
 
-
 target=data["Dataset"]
 source=data.drop(["Dataset"],axis=1)
 sm=SMOTE()
